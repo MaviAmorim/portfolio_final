@@ -231,6 +231,7 @@ body {
         width: 50%;
     }
 
+
     .rodape{
         flex-direction: column-reverse;
 
@@ -261,6 +262,10 @@ body {
 
     .apresentacao__conteudo{
         width: auto;
+    }
+
+    .apresentacao_links_navegacao{
+        padding: 30;
     }
 
     .apresentacao_imagem{

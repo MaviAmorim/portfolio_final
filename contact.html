@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mavi Amorim | Contato</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+             <a class="cabecalho_menu_link" href="index.html">Home</a>
+             <a class="cabecalho_menu_link" href="about.html">Sobre mim</a>
+             <a class="cabecalho_menu_link" href="skills.html">Habilidades</a>
+             <a class="cabecalho_menu_link" href="contact.html">Contato</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <form class="form" action="https://formsubmit.co/maria.vqamorim@gmail.com" method="POST">
+            <h2 class="tituloForms"> Entre em <strong class="titulo-destaque"> contato</strong></h2>
+            <label form="nome">Nome:</label>
+            <input type="text" name="name" id="nome" placeholder="Preencha seu nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="seuemail@email.com.br" required>
+
+            <label for="textarea">Mensagem:</label>
+            <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+            
+            <input type="hidden" name="_next" value="https://127.0.0.1:5500/e-mail-enviado.html">
+            
+            <button type="submit">Enviar</button>
+       </form>
+        <img class="apresentacao_imagem" src="./assets/Imagem_Mavi.png" alt="Foto da Mavi Amorim sorrindo">
+    </main>
+    <footer class="rodape">
+        <div class="rodape_links">
+            <a href="https://www.alura.com.br/empresas/include"> 
+            <img class="logos" src="./assets/LogoAluraInclude.png"  alt="logo da Alura Include" >
+            </a>
+            <a href="https://www.sp.senac.br/">
+            <img class="logos" src="./assets/Logo_Senac.png"  alt="logo do Senac" >
+            </a>
+        </div>
+            <div class="rodape_links_texto">
+                <p>Desenvolvido por<strong> Mavi Amorim</strong> no programa<strong> Alura Include.</strong></p>
+            </div>
+    </footer>
+</body>
+</html>
